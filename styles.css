@@ -1,0 +1,149 @@
+body {
+    color: #8f8f8f;
+    font: 12px Tahoma, sans-serif;
+    background-color: #f8f8f8;
+    border-top: 5px solid #7e7e7e;
+    margin: 0;
+}
+
+input[type="text"] {
+    background-color: #f3f3f3;
+    border: 1px solid #e7e7e7;
+    height: 30px;
+    color: #b2b2b2;
+    padding: 0 10px;
+    vertical-align: top;
+}
+
+button {
+    color: #fff;
+    background-color: #29c5e6;
+    border: none;
+    height: 32px;
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    margin: 20px 0;
+}
+
+/* стили контента */
+#wrapper {
+    max-width: 960px;
+    margin: auto;
+}
+
+header {
+    padding: 20px 0;
+}
+
+form[name="search"] {
+    float: right;
+}
+
+/* стили для меню */
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style-position: inside;
+    font: 14px 'Oswald', sans-serif;
+    padding: 10px;
+}
+
+.top-menu {
+    background: #f3f3f3;
+}
+
+.top-menu li {
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 0;
+}
+
+.top-menu li.active {
+    background: #29c5e6;
+    color: #fff;
+}
+
+.top-menu a {
+    color: #b2b2b2;
+}
+
+/* /стили для меню */
+
+/* стили к цитате */
+blockquote {
+    margin: 0;
+    background: #e2e2e2;
+    padding: 40px 205px 293px 40px;
+    font-family: 'Oswald', 'Light';
+    font-weight: 300;
+}
+
+blockquote p {
+    color: #5a5a5a;
+    font-style: normal;
+    font-size: 42px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+blockquote cite {
+    display: block;
+    font-size: 20px;
+    font-style: normal;
+    color: #bebebe;
+    margin: 0;
+    /*text-align: left;*/
+}
+
+/* /стили к цитате */
+
+/* стили для нижнего меню */
+.bottom-menu {
+    background: #f3f3f3;
+}
+
+.bottom-menu li {
+    text-transform: uppercase;
+    display: inline-block;
+    list-style-position: inside;
+    font: 18px 'Oswald', 'Light';
+    padding: 0;
+    margin: 0;
+    width: 237px;
+}
+
+.bottom-menu li.active_1 {
+    color: #29c5e6;
+}
+
+.bottom-menu a {
+    color: #8f8f8f;
+    padding: 17px 0;
+}
+
+.num {
+    display: inline-block;
+    background: #8f8f8f;
+    color: #ffffff;
+    padding: 5px 10px;
+    margin: 12px;
+}
+
+.num_active {
+    display: inline-block;
+    background: #29c5e6;
+    color: #ffffff;
+    padding: 5px 10px;
+    margin: 12px;
+}
+
+/* /стили для нижнего меню */
