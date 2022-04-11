@@ -147,3 +147,56 @@ blockquote cite {
 }
 
 /* /стили для нижнего меню */
+
+/* стили для контейнера */
+.container {
+    display: flex;
+}
+
+/* стили для карточки */
+
+.card {
+    padding: 10px;
+    width: calc(50% - 20px);
+    /*justify-content: start;
+    flex-wrap: nowrap;*/
+}
+
+/* card-hadder */
+.card-hadder {
+    display: flex;
+}
+
+.card-marker {
+    width: 15px;
+    height: 15px;
+    background: #29c5e6;
+}
+
+.card-title {
+    padding: 0 5px;
+    font-size: 14px;
+    color: #868686;
+    text-transform: uppercase;
+}
+
+.card-texture {
+    padding-left: 5px;
+    width: 286px;
+    height: 16px;
+    
+    background-image: url(images/h1-bg.png);
+    /* background-repeat: no-repeat; */
+}
+/* /card-hadder */
+
+/* /стили для карточки */
+/* /стили для контейнера */
+
+/* /стили контента */
+
+/* стили для footer */
+footer {
+    color: #7e7e7e;
+}
+/* /стили для footer */
