@@ -150,6 +150,7 @@ blockquote cite {
 
 /* стили для контейнера */
 .container {
+    padding-top: 30px;
     display: flex;
 }
 
@@ -190,6 +191,14 @@ blockquote cite {
 }
 /* /card-hadder */
 
+.card-photo {
+    background: #e2e2e2;
+    width: 136px;
+    height: 136px;
+    border: thick double #ffffff;
+    margin-top: 16px;
+    margin-right: 19px;
+}
 /* /стили для карточки */
 /* /стили для контейнера */
 
