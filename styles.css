@@ -152,7 +152,6 @@ blockquote cite {
 .container {
     padding-top: 30px;
     display: flex;
-    /* width: 940px; */
 }
 
 /* стили для карточки */
@@ -183,6 +182,14 @@ blockquote cite {
 .card-hadder {
     display: flex;
     margin-bottom: 16px;
+}
+
+.card-hadder-f {
+    display: flex;
+    padding-top: 20px;
+    margin-bottom: 16px;
+    margin-left: 10px;
+    max-width: 960px;
 }
 
 .card-marker {
@@ -217,6 +224,10 @@ blockquote cite {
 }
 .card-texture-5 {
     width: 150px;
+}
+
+.card-texture-full {
+    width: 830px;
 }
 
 /* /card-hadder */
