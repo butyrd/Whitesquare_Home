@@ -288,6 +288,8 @@ blockquote cite {
     display: flex;
     width: 940px;
     height: auto;
+    padding: 0 30px;
+    margin-bottom: 50px;
 }
 /* /стили контента */
 
