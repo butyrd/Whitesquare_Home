@@ -284,7 +284,11 @@ blockquote cite {
 /* /стили для карточки */
 
 /* /стили для контейнера */
-
+.Logos {
+    display: flex;
+    width: 940px;
+    height: auto;
+}
 /* /стили контента */
 
 /* стили для footer */
