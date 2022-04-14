@@ -152,13 +152,22 @@ blockquote cite {
 .container {
     padding-top: 30px;
     display: flex;
+    /* width: 940px; */
 }
 
 /* стили для карточки */
 
 .card {
     padding: 10px;
-    width: calc(50% - 20px);
+    /* width: calc(50% - 20px); */
+    width: 50%;
+    max-width: 460px;
+}
+
+.card-bottom {
+    padding: 10px;
+    width: 33.33%;
+    max-width: 300px;
 }
 
 /* card-hadder */
@@ -182,21 +191,25 @@ blockquote cite {
 
 .card-texture {
     padding-left: 5px;
-    width: 286px;
     height: 16px;
-    
     background-image: url(images/h1-bg.png);
-    /* background-repeat: no-repeat; */
+}
+.card-texture-1 {
+    width: 286px;
+}
+.card-texture-2 {
+    width: 272px;
+}
+.card-texture-3 {
+    width: 211px;
+}
+.card-texture-4 {
+    width: 112px;
+}
+.card-texture-5 {
+    width: 150px;
 }
 
-.card-texture-1 {
-    padding-left: 5px;
-    width: 272px;
-    height: 16px;
-    
-    background-image: url(images/h1-bg.png);
-    /* background-repeat: no-repeat; */
-}
 /* /card-hadder */
 
 /* card-info */
@@ -232,6 +245,7 @@ blockquote cite {
 
 /* /card-info */
 /* /стили для карточки */
+
 /* /стили для контейнера */
 
 /* /стили контента */
