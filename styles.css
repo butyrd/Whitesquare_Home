@@ -207,27 +207,9 @@ blockquote cite {
 
 .card-texture {
     padding-left: 5px;
+    flex-grow: 1;
     height: 16px;
     background-image: url(images/h1-bg.png);
-}
-.card-texture-1 {
-    width: 286px;
-}
-.card-texture-2 {
-    width: 272px;
-}
-.card-texture-3 {
-    width: 211px;
-}
-.card-texture-4 {
-    width: 194px;
-}
-.card-texture-5 {
-    width: 150px;
-}
-
-.card-texture-full {
-    width: 830px;
 }
 
 /* /card-hadder */
